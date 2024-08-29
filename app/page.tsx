@@ -4,7 +4,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <main className='flex flex-col md:flex-row w-screen'>
+    <main className='flex flex-col md:flex-row w-screen h-screen overflow-hidden'>
       <SideBar/>
       <MainContainer/>
     </main>
